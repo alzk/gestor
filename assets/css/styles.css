@@ -2,3 +2,14 @@
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
+body {
+  /* Full height */
+  width: 100%;
+  height: auto; 
+ 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
