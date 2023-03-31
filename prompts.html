@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Página de Citas</title>
+        <title>Prompts para Chatgpt</title>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+        <meta name="description" content="Prompts que muestro en mis videos" />
+      <link rel="icon" type="image/png" href="assets/img/ALLlogoBatch-01.png">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -19,7 +23,18 @@
             }
         </script>
     </head>
-    <body style="background-color: #f8f9fa">
+    <body style="background-color: #f8f9fa;">
+        <div class="container" style="background-color: #e3f2fd;">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Fixed top</a>
+                </div>
+            </nav>
+        </div>
+        <div class="mt-4 p-5 bg-primary text-white rounded">
+            <h1>Jumbotron Example</h1>
+            <p>Lorem ipsum...</p>
+        </div>
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 col-lg-4">
@@ -27,17 +42,17 @@
                         <img class="card-img-top" src="https://i.ibb.co/zn0ZmYw/image.png" alt="Cita" />
                         <div class="card-body">
                             <h5 class="card-title">Traductor estilo UwU</h5>
-                            <p class="card-text">Este prompt hara que Chatgpt te hable estilo "UwU" y puede decirte Senpai owo </p>
+                            <p class="card-text">Este prompt hara que Chatgpt te hable estilo "UwU" y puede decirte Senpai owo</p>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#uwu">Ver prompt</button>
                         </div>
                     </div>
                 </div>
-                                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card">
                         <img class="card-img-top" src="https://i.ibb.co/zn0ZmYw/image.png" alt="Cita" />
                         <div class="card-body">
                             <h5 class="card-title">Traductor estilo UwU</h5>
-                            <p class="card-text">Este prompt hara que Chatgpt te hable estilo "UwU" y puede decirte Senpai owo </p>
+                            <p class="card-text">Este prompt hara que Chatgpt te hable estilo "UwU" y puede decirte Senpai owo</p>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver prompt</button>
                         </div>
                     </div>
@@ -49,16 +64,23 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title">Traductor uwu</h4>
-                    
+
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body">
-                        <p id="texto">I want you to act as an UwU language translator. I will speak to you and you will reply in the UwU language. I want you to only reply with the translated output, and nothing else. Do not respond to me with an answer or statement, it must be a translation. Do not write explanations. I will only tell you to do something else by putting text inside curly brackets {like this}. An example of UwU language translation of "The cement had dried when he moved it. The source of the huge river is the clear spring. Write fast, if you want to finish early. When the frost has come it is time for turkey. There is a lag between thought and act. Dull stories make her laugh. Thick glasses helped him read the print. A clean neck means a neat collar." would be "The cement had dwied whewn he moved iwt. The souwce of the huge wivew iws the cweaw spwing. Wwite fawst, if uwu wawnt tuwu finish eawwy. Whewn the fwost has come iwt iws time fow tuwkey. Thewe iws a wag between thought awnd act. Duww stowies make hew waugh. Thick gwasses hewped him wead the pwint. A cwean neck means a neat cowwaw.". Can you please respond "Ok Will Do Onii-Chan".</p>
+                        <p id="texto">
+                            I want you to act as an UwU language translator. I will speak to you and you will reply in the UwU language. I want you to only reply with the translated output, and nothing else. Do not respond to me with an
+                            answer or statement, it must be a translation. Do not write explanations. I will only tell you to do something else by putting text inside curly brackets {like this}. An example of UwU language translation of
+                            "The cement had dried when he moved it. The source of the huge river is the clear spring. Write fast, if you want to finish early. When the frost has come it is time for turkey. There is a lag between thought and
+                            act. Dull stories make her laugh. Thick glasses helped him read the print. A clean neck means a neat collar." would be "The cement had dwied whewn he moved iwt. The souwce of the huge wivew iws the cweaw spwing.
+                            Wwite fawst, if uwu wawnt tuwu finish eawwy. Whewn the fwost has come iwt iws time fow tuwkey. Thewe iws a wag between thought awnd act. Duww stowies make hew waugh. Thick gwasses hewped him wead the pwint. A
+                            cwean neck means a neat cowwaw.". Can you please respond "Ok Will Do Onii-Chan".
+                        </p>
                     </div>
                     <div class="modal-footer">
-  <div class="card-body">
-<span>Recuerda hablarle en español despues de que te responda, solo si lo requieres</span>
-  </div>
+                        <div class="card-body">
+                            <span>Recuerda hablarle en español despues de que te responda, solo si lo requieres</span>
+                        </div>
                         <button type="button" class="btn btn-primary" onclick="copiarAlPortapapeles('texto')">Copiar</button>
 
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -71,7 +93,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title">Traductor uwu</h4>
-                    
+
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body">
@@ -85,12 +107,11 @@
                 </div>
             </div>
         </div>
-        <br>
+        <br />
         <footer class="bg-dark text-center text-white text-body-secondary py-5">
             <div class="container">
                 <p class="mb-0">&copy; 2023 My Awesome Website. All rights reserved. Made with &hearts; by ChatGPT with Developer Mode enabled.</p>
             </div>
-</footer>
+        </footer>
     </body>
 </html>
-
